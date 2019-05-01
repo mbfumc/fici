@@ -6,4 +6,6 @@
 #' @param x Table name
 #' @export
 
-derp <- function(conn, x){dbGetQuery(conn,paste("SELECT * from", x))}
+derp <- function(conn, x){
+  dbGetQuery(conn,paste("SELECT * from", x))
+}
