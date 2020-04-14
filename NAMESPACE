@@ -2,7 +2,9 @@
 
 export(circleFun)
 export(derp)
+export(getmode)
 export(mag)
+export(mavback)
 export(mn)
 export(simple_cap)
 export(to_under)
